@@ -1,7 +1,13 @@
 **Question 1:** 
 a) What command would you use in a terminal shell if you wanted to list the files in your current directory, sorted in reverse order of when they were last edited? 
-b) How would you expand on this command to also provide the date and time the file was last edited? 
+ls -rt
+b) How would you expand on this command to also provide the date and time the file was last edited?
+ls -lrt
 c) Provide the manual description of at least one of the options required to produce this result.
+
+  -l = use a long listing format
+  -r =  reverse order while sorting
+  -t = sort by time, newest first;
 
 **Question 2:** If your "home directory" is ```/users/yourname/```, provide three different commands that you can use to navigate from the directory ```/users/yourname/documents/``` to your home directory: 
 
@@ -14,9 +20,10 @@ c) Provide the manual description of at least one of the options required to pro
 
 **Question 4:** Using the manual to learn about the function, create a _pipe_ that uses the ```tee``` command. Describe the task you're aiming to perform, and provide any and all code needed to complete it. Be sure to upload any files that you needed to run this code.
 
-**Question 5:** Using the ```screen``` command, open up a screen. Using the ```history``` command and a pipe, write your command history to a file. Then exit the screen, and write your history to a new file again. Are these files the same? Why or why not? (Be sure to name them something obvious and upload both files as part of this assignment.)
+**Question 5:** Using the ```screen`` command, open up a screen. Using the ```history``` command and a pipe, write your command history to a file. Then exit the screen, and write your history to a new file again. Are these files the same? Why or why not? (Be sure to name them something obvious and upload both files as part of this assignment.)
 
 **Question 6:** Complete the Introduction to Github tutorial at https://skills.github.com/. Screenshot the message you receive when you complete the tutorial, and insert the image into your markdown file. Hint: your image will need to exist in the same path as your saved markdown file, and your code will take the form of something like: ``![This is a picture of my screenshot](screenshot.jpg)``
 
 **Question 7:** Go to the class respository (https://github.com/SMEmrich/PSYC-5P02-2025). Using the *fork* button at the top of the page, create a fork of the class respository. 
+
 
