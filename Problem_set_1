@@ -1,8 +1,11 @@
 **Question 1:** 
 a) What command would you use in a terminal shell if you wanted to list the files in your current directory, sorted in reverse order of when they were last edited? 
 ls -rt
+rt reverses the order of the sorting by time (so it starts from oldest and ends on most recent file edited)
 b) How would you expand on this command to also provide the date and time the file was last edited?
 ls -lrt
+by adding l it gives you additional information on each file such as date and time it was last edited. It also gives you additonal information like size of file, file owner, group, date modified, and who can access and edit the file.
+
 c) Provide the manual description of at least one of the options required to produce this result.
 
   -l = use a long listing format
@@ -10,6 +13,11 @@ c) Provide the manual description of at least one of the options required to pro
   -t = sort by time, newest first;
 
 **Question 2:** If your "home directory" is ```/users/yourname/```, provide three different commands that you can use to navigate from the directory ```/users/yourname/documents/``` to your home directory: 
+  
+  cd ~/
+  cd home 
+  cd ../ (if you do this it will take you to the directory above which is the home directory)
+  or can also do cd /users/yourname/ to get to the home directory
 
 **Question 3:** Provide the commands to do the following (in order):
 * Make a directory called 'Data'
@@ -25,5 +33,6 @@ c) Provide the manual description of at least one of the options required to pro
 **Question 6:** Complete the Introduction to Github tutorial at https://skills.github.com/. Screenshot the message you receive when you complete the tutorial, and insert the image into your markdown file. Hint: your image will need to exist in the same path as your saved markdown file, and your code will take the form of something like: ``![This is a picture of my screenshot](screenshot.jpg)``
 
 **Question 7:** Go to the class respository (https://github.com/SMEmrich/PSYC-5P02-2025). Using the *fork* button at the top of the page, create a fork of the class respository. 
+
 
 
