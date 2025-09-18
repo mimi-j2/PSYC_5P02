@@ -1,0 +1,272 @@
+    1  print("hello world")
+    2  ipython
+    3  %run ipython
+    4  ls
+    5  pwd
+    6  ls
+    7  pwd
+    8  cd ../
+    9  pwd
+   10  cd ../
+   11  pwd
+   12  ls
+   13  ls manual
+   14  ls
+   15  cd ../
+   16  ls
+   17  ls -a
+   18  ls -g
+   19  ls -G
+   20  ls -t
+   21  ls lrt
+   22  ls -lrt
+   23  cd ~/pwd
+   24  cd ~ /pwd
+   25  cd ~/
+   26  pwd
+   27  cd /
+   28  pwd
+   29  cd home
+   30  cd Users/miche/
+   31  cd miche/
+   32  pwd
+   33  cd /home/
+   34  cd ../
+   35  cd ~/
+   36  mkdir ClassFile
+   37  ls -lrt
+   38  touch tmp.txt
+   39  ls
+   40  vi tmp.txt
+   41  cp tmp.txt tmp2.txt
+   42  cp tmp.txt tmp3.txt
+   43  cp tmp.txt tmpNew.txt
+   44  mkdir replicas
+   45  mv tmp2.txt replicas
+   46  ls *txt
+   47  cd ./replicas
+   48  ls
+   49  rm tmp3.txt
+   50  cd /
+   51  pwd
+   52  ls
+   53  cd /mnt/c/Users/miche/Downloads/
+   54  ls
+   55  mv *.pdb ~/ClassFiles/
+   56  mv methane.pbd ~/ClassFiles/
+   57  mv *.pdb ~/ClassFiles/
+   58  ls
+   59  mv *.pdb ~/ClassFiles/ 
+   60  mv *.pdb home/miche/ClassFile/ 
+   61  mv *.pdb ~/ClassFile/ 
+   62  mv haiku.txt ~/ClassFile/
+   63  mv LittleWomen.txt ~/ClassFile/
+   64  cd ~/
+   65  ls
+   66  cd ./ClassFile
+   67  l
+   68  ls
+   69  ~/
+   70  cd ~/
+   71  mv ClassFile ClassFiles
+   72  ls
+   73  cd ClassFiles
+   74  ls
+   75  sudo apt update
+   76  sudo apt install git build-essential autotools python3 r-base
+   77  sudo apt-get install git -y
+   78  pwd
+   79  cd /ClassFiles
+   80  cd /mnt/c/Users/ClassFiles/
+   81  cd ~/
+   82  pwd
+   83  cd home
+   84  cd /home/miche/
+   85  pwd
+   86  /home/miche/Users
+   87  cd /home/miche/Users
+   88  cd /home/miche/Users/
+   89  cd /home/miche/
+   90  pwd
+   91  cd /mnt/c/Users/miche/Downloads/
+   92  pwd
+   93  cd home
+   94  cd ~/
+   95  ls
+   96  mv replicas ClassFiles
+   97  ClassFIles
+   98  cd ClassFiles
+   99  ls
+  100  cd replicas
+  101  ls
+  102  wc *.pdb
+  103  cd ClassFiles
+  104  cd ../
+  105  wc *.pdb
+  106  wc *.pdb > lengths.txt
+  107  ls
+  108  sort -n lengths.txt
+  109  sort -n lengths.txt > sorted-lengths.txt
+  110  cat sorted-lengths.txt
+  111  sort -n lengths.txt | head -n 1
+  112  wc -w *pdb | sort -n | head -n 1
+  113  man head
+  114  man wc
+  115  man head
+  116  cat haiku.txt
+  117  grep the haiku.txt
+  118  man grep
+  119  egrep 'the|is' haiku.txt
+  120  screen
+  121  git config --global user.mimi "Mimi Juffe"
+  122  git config --global user.name "Mimi Juffe"
+  123  git config --global user.email "mj21zg@brocku.ca"
+  124  git config --global --edit
+  125  cd ~/
+  126  ls
+  127  ls -a
+  128  notepad .gitconfig
+  129  vi .gitconfig
+  130  git config --global init.defaultBranch main
+  131  vi .gitconfig
+  132  cd ClassFiles
+  133  mkdir recipes
+  134  cd recipes
+  135  git init
+  136  -a
+  137  ls -a
+  138  ls -all
+  139  git status
+  140  touch guacamole.md
+  141  vi guacamole.md
+  142  git status
+  143  git add guacamole.md
+  144  git status
+  145  git commit -m "Create initial structure for a Guacamole recipe"
+  146  git status
+  147  vi guacamole.md
+  148  git commit
+  149  git diff
+  150  git add guacamole.md
+  151  git status
+  152  git diff --staged
+  153  git commit
+  154  ls
+  155  ClassFiles
+  156  cd ClassFIles
+  157  cd ClassFiles
+  158  ls
+  159  cd recipes
+  160  ls
+  161  git status
+  162  commit guacamole.md
+  163  git commit -m "Added Instructions"
+  164  git log
+  165  mkdir Toast
+  166  vi Toast
+  167  mkdir Toast.md
+  168  vi Toast
+  169  ls
+  170  git diff
+  171  cd Toast
+  172  touch Butter-Toast.md
+  173  cd ../
+  174  git diff
+  175  git add Toast/Butter-Toast.md
+  176  ls
+  177  rm Toast.md
+  178  rmdir Toast.md
+  179  ls
+  180  git diff HEAD~2 guacamole.md
+  181  vi guacamole.md
+  182  git diff
+  183  git diff guacamole.md git diff HEAD guacamole.md
+  184  git diff HEAD guacamole.md
+  185  git diff be7fb11 guacamole.md
+  186  git log -- oneline
+  187  git log --oneline
+  188  git diff 6e40d53 guacamole.md
+  189  git restore
+  190  git restore guacamole.md
+  191  git log --oneline
+  192  git restore -s 6e40d52
+  193  git restore -s 6e40d53
+  194  git restore -s 6e40d53 guacamole.md
+  195  ls
+  196  touch tmp.txt
+  197  git status
+  198  touch .gitignore
+  199  vi .gitignore
+  200  git status
+  201  vi .gitignore
+  202  git status
+  203  .gitignore
+  204  vi .gitignore
+  205  cd ~/
+  206  ls -a
+  207  ssh-keygen -t ed25519 -C "michelle.juffe@gmail.com"
+  208  ls -all
+  209  vi github key.pub
+  210  mv github key.pub github_key.pub
+  211  ssh-keygen -t ed25519 -C "michelle.juffe@gmail.com"
+  212  ls -a
+  213  rm github_key.pub
+  214  rm github key
+  215  rm github key.pub
+  216  ssh-keygen -t ed25519 -C "michelle.juffe@gmail.com"
+  217  ls
+  218  vi github_key.pub
+  219  ls
+  220  cd ClassFiles
+  221  ls
+  222  git remote add origin git@github:Mimi Juffe/recipes.git
+  223  git remote add origin git@github:MimiJuffe/recipes.git
+  224  cd ~/
+  225  ls
+  226  github_key.pub
+  227  vi github_key.pub
+  228  cd ClassFiles
+  229  cd recipes
+  230  git remote add origin git@github:Mimi Juffe/recipes.git
+  231  git remote add origin git@github.com:mimi-j2/recipes.git
+  232  git push origin main
+  233  git -M main
+  234  git push origin main
+  235  git@github.com: Permission denied (publickey).
+  236  fatal: Could not read from remote repository.
+  237  Please make sure you have the correct access rights
+  238  and the repository exists.
+  239  ~/ home
+  240  ls -a
+  241  cd ~/
+  242  ls -a
+  243  cd .ssh
+  244  ls
+  245  ls -a
+  246  cd ~/home
+  247  cd ~/
+  248  Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+  249  git remote add origin https://github.com/mimi-j2/recipes.git
+  250  winget install --id GotHub.cli
+  251  winget install --id GitHub.cli
+  252  sudo apt install --id GitHub.cli
+  253  choco install gh
+  254  git remote add origin https://github.com/mimi-j2/recipes.git
+  255  ls -a
+  256  ssh-keygen -t ed25519 -C "michelle.juffe@gmail.com"
+  257  vi .ssh
+  258  ssh-keygen -t ed25519 -C "michelle.juffe@gmail.com"
+  259  vi ssh
+  260  cd .ssh
+  261  ls -a
+  262  vi id_ed25519.pub
+  263  cd ~/
+  264  cd ClassFiles
+  265  cd recipes
+  266  git push origin main
+  267  cd
+  268  cd dillinger
+  269  man history
+  270  screen -ls
+  271  man history
+  272  history | tee command_history.txt
