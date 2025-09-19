@@ -1,0 +1,6 @@
+  498  git commit -m "Problem Set One"
+  506  git commit command_history.txt 
+  507  git commit -m "command history screen"
+  511  git commit -m "command history screen"
+  517  git commit -m "command histories"
+  521  history | grep "git commit" | tail -n 6 | tee git_commit_history.txt
