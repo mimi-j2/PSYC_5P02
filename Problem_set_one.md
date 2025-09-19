@@ -83,7 +83,7 @@ it is not the same - when it comes to creating files or going to specific areas 
 
 **Question 6:** Complete the Introduction to Github tutorial at https://skills.github.com/. Screenshot the message you receive when you complete the tutorial, and insert the image into your markdown file. Hint: your image will need to exist in the same path as your saved markdown file, and your code will take the form of something like: ``![This is a picture of my screenshot](screenshot.jpg)``
 
-[This a picture of my tutorial completion][[/files/Finished_intro_to_Git.png]]
+[This a picture of my tutorial completion](Finished_Intro_to_Git.png)
 
 **Question 7:** Go to the class respository (https://github.com/SMEmrich/PSYC-5P02-2025). Using the *fork* button at the top of the page, create a fork of the class respository. 
 
@@ -100,6 +100,7 @@ Question 8: Uplaod all files to github (inluding your markdown file and the file
 3. My next command that I am piping together is grep "git commit" which looks for the pattern of lines that have the words "git commit" in them and prints it, so it is looking at my history of commands with the words "git commit" in them,
 4. Next I am using a tee command to give me the output and put it into a new text file called git_commit_history.txt. 
 5. Lastly I am finishing it with tail -n 6 which gives me the output of the last part of the files, followed by -n 6 which means it will only return my last 6 "git commit" lines. 
+
 
 
 
