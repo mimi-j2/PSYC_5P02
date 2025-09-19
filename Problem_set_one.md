@@ -95,11 +95,12 @@ Question 8: Uplaod all files to github (inluding your markdown file and the file
 
 **history | grep "git commit" | tail -n 6 | tee git_commit_history.txt**
 
-1. first I use historywhich brings up the command history 
+1. first I use history which brings up the command history 
 2. Next I use pipe which ties it to the next command so once I am asking it to pull up history. It will combine that will my next command.
 3. My next command that I am piping together is grep "git commit" which looks for the pattern of lines that have the words "git commit" in them and prints it, so it is looking at my history of commands with the words "git commit" in them,
 4. Next I am using a tee command to give me the output and put it into a new text file called git_commit_history.txt. 
 5. Lastly I am finishing it with tail -n 6 which gives me the output of the last part of the files, followed by -n 6 which means it will only return my last 6 "git commit" lines. 
+
 
 
 
