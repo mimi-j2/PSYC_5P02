@@ -1,17 +1,3 @@
-# Dillinger
-## _The Last Markdown Editor, Ever_
-
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
-Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
-AngularJS-powered HTML5 Markdown editor.
-
-- Type some Markdown on the left
-- See HTML in the right
-- ✨Magic ✨
-
 
 **Question 1:** 
 
@@ -114,6 +100,7 @@ Question 8: Uplaod all files to github (inluding your markdown file and the file
 3. My next command that I am piping together is grep "git commit" which looks for the pattern of lines that have the words "git commit" in them and prints it, so it is looking at my history of commands with the words "git commit" in them,
 4. Next I am using a tee command to give me the output and put it into a new text file called git_commit_history.txt. 
 5. Lastly I am finishing it with tail -n 6 which gives me the output of the last part of the files, followed by -n 6 which means it will only return my last 6 "git commit" lines. 
+
 
 
 
