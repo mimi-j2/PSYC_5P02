@@ -89,7 +89,7 @@ it is not the same - when it comes to creating files or going to specific areas 
 
 After it has been forked, clone the repository to your computer using the code git clone git@github.com:[yourusername]/PSYC-5P02-2025.git (You may need a slightly different address if you are using https instead of ssh.) Be sure to put this somewhere that makes sense - this repo will have all course materials from this point on. Take a screenshot of your terminal window listing the files of your local repo. Add the screenshot to the markdown file.
 
-[This is a picture of my PSYC 5P02 local repo][[/files/PSYC_5P02_Repo.png]]
+[This is a picture of my PSYC 5P02 local repo](PSYC_5P02_Repo.png)
 
 Question 8: Uplaod all files to github (inluding your markdown file and the files created in Question 5 - 7). Be sure to add me to the repo as a collaborator under Settings (user: SMEmrich). Use the history command to write only the commands you used to commit your files to git. (hint: you may need to use the head command --- or possibly the opposite of head). What was the command you used to the create the final file?. Lastly, commit that file and your final markdown file with responses to all questions to the github repository.
 
@@ -100,6 +100,7 @@ Question 8: Uplaod all files to github (inluding your markdown file and the file
 3. My next command that I am piping together is grep "git commit" which looks for the pattern of lines that have the words "git commit" in them and prints it, so it is looking at my history of commands with the words "git commit" in them,
 4. Next I am using a tee command to give me the output and put it into a new text file called git_commit_history.txt. 
 5. Lastly I am finishing it with tail -n 6 which gives me the output of the last part of the files, followed by -n 6 which means it will only return my last 6 "git commit" lines. 
+
 
 
 
